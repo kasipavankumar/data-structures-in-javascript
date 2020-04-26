@@ -1,0 +1,25 @@
+{
+	"name": "fcc-data-structures-algorithms",
+	"version": "1.0.0",
+	"description": "Solutions for fCC Data Structures & Algorithms",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write \"**/*.js\"",
+		"test": "jest"
+	},
+	"keywords": [
+		"javascript",
+		"data-structures",
+		"algorithms"
+	],
+	"author": "thekman",
+	"license": "ISC",
+	"dependencies": {
+		"prettier": "^2.0.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^25.2.1",
+		"husky": "^4.2.5",
+		"jest": "^25.4.0"
+	}
+}
