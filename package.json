@@ -4,6 +4,12 @@
 	"description": "Solutions for FCC Data Structures & Algorithms Certification Course",
 	"main": "index.js",
 	"private": true,
+	"bugs": {
+		"url": "https://github.com/code-plus-coffee/javascript-algorithms-data-structures/issues"
+	},
+	"repository": {
+		"url": "https://github.com/code-plus-coffee/javascript-algorithms-data-structures"
+	},
 	"scripts": {
 		"format": "prettier --write \"**/*.js\"",
 		"test": "jest"
