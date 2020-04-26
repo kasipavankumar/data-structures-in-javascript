@@ -1,7 +1,7 @@
 # Javascript: Algorithms & Data Structures
 
 <div align="center">
-    <img alt="CI Status" src="https://github.com/code-plus-coffee/javascript-algorithms-data-structures/workflows/Node.js%20CI/badge.svg" />
+    <img alt="CI Status" src="https://github.com/code-plus-coffee/javascript-algorithms-data-structures/workflows/Test%20Suites/badge.svg" />
 </div>
 
 ## 🚀 Description
