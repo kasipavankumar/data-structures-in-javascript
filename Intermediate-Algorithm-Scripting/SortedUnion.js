@@ -8,11 +8,14 @@ function uniteUnique(arr) {
 	})
 
 	if (allArgumentsAreArray) {
-		let flattenArgs = args.flat()
-		return [...new Set(flattenArgs)]
-	}
+		let result = []
 
-	return undefined
+		args.forEach(function (array) {
+			result.push(...array)
+		})
+
+		return [...new Set(result)]
+	}
 }
 
 module.exports = uniteUnique
