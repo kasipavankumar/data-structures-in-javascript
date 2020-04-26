@@ -1,8 +1,9 @@
 {
 	"name": "fcc-data-structures-algorithms",
 	"version": "1.0.0",
-	"description": "Solutions for fCC Data Structures & Algorithms",
+	"description": "Solutions for FCC Data Structures & Algorithms Certification Course",
 	"main": "index.js",
+	"private": true,
 	"scripts": {
 		"format": "prettier --write \"**/*.js\"",
 		"test": "jest"
