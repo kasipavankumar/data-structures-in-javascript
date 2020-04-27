@@ -1,23 +1,23 @@
 // Drop it
 
 function test(actualValue, expectedValue) {
-	if (Array.isArray(actualValue) && Array.isArray(expectedValue)) {
-		let { log } = console
-		let isSame =
-			actualValue.length == expectedValue.length &&
-			expectedValue.every(function (item, index) {
-				return item === actualValue[index]
-			})
+    if (Array.isArray(actualValue) && Array.isArray(expectedValue)) {
+        let { log } = console
+        let isSame =
+            actualValue.length == expectedValue.length &&
+            expectedValue.every(function (item, index) {
+                return item === actualValue[index]
+            })
 
-		isSame
-			? log(expectedValue, '===', actualValue, '-', '✔️')
-			: log(expectedValue, '!==', actualValue, '-', '❌')
-	}
+        isSame
+            ? log(expectedValue, '===', actualValue, '-', '✔️')
+            : log(expectedValue, '!==', actualValue, '-', '❌')
+    }
 }
 
 function dropElements(arr, func) {
-	let index = arr.indexOf(arr.find(func))
-	return index !== -1 ? arr.slice(index) : []
+    let index = arr.indexOf(arr.find(func))
+    return index !== -1 ? arr.slice(index) : []
 }
 
 // Tests

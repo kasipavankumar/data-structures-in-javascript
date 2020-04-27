@@ -1,27 +1,30 @@
 // Ceaser Cipher
 
 function rot13(str) {
-	if (typeof str === 'string') {
-		let split = str.split('')
-		let specialCharacters = /\W/gi
-		let res = []
+    if (typeof str === 'string') {
+        let split = str.split('')
+        let specialCharacters = /\W/gi
+        let res = []
 
-		split.forEach(function (char) {
-			if (specialCharacters.test(char)) {
-				res.push(char)
-			} else {
-				if (char.charCodeAt() <= 77 && !specialCharacters.test(char)) {
-					res.push(String.fromCharCode(char.charCodeAt() + 13))
-				} else if (char.charCodeAt() >= 77 && !specialCharacters.test(char)) {
-					res.push(String.fromCharCode(char.charCodeAt() - 13))
-				}
-			}
-		})
+        split.forEach(function (char) {
+            if (specialCharacters.test(char)) {
+                res.push(char)
+            } else {
+                if (char.charCodeAt() <= 77 && !specialCharacters.test(char)) {
+                    res.push(String.fromCharCode(char.charCodeAt() + 13))
+                } else if (
+                    char.charCodeAt() >= 77 &&
+                    !specialCharacters.test(char)
+                ) {
+                    res.push(String.fromCharCode(char.charCodeAt() - 13))
+                }
+            }
+        })
 
-		return res.join('')
-	}
+        return res.join('')
+    }
 
-	return undefined
+    return undefined
 }
 
 /* let { log } = console

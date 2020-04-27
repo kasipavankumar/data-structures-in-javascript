@@ -1,20 +1,20 @@
 // DNA Pairing
 
 function pairElement(str) {
-	let basePairs = {
-		A: 'T',
-		T: 'A',
-		C: 'G',
-		G: 'C',
-	}
-	let split = str.split('')
-	let result = []
+    let basePairs = {
+        A: 'T',
+        T: 'A',
+        C: 'G',
+        G: 'C',
+    }
+    let split = str.split('')
+    let result = []
 
-	result = split.map(function (each) {
-		return [each, basePairs[each]]
-	})
+    result = split.map(function (each) {
+        return [each, basePairs[each]]
+    })
 
-	return result
+    return result
 }
 
 /* let { log } = console

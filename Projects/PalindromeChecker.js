@@ -1,13 +1,13 @@
 // Palindrome Checker
 
 function palindrome(str) {
-	if (typeof str === 'string') {
-		let cleanedString = str.toLowerCase().split(/\W|_/gm).join('')
-		let originalString = cleanedString.split('').join('')
-		let reversedString = cleanedString.split('').reverse().join('')
+    if (typeof str === 'string') {
+        let cleanedString = str.toLowerCase().split(/\W|_/gm).join('')
+        let originalString = cleanedString.split('').join('')
+        let reversedString = cleanedString.split('').reverse().join('')
 
-		return originalString === reversedString
-	}
+        return originalString === reversedString
+    }
 }
 
 /* let { log } = console

@@ -1,38 +1,38 @@
 // Convert HTML Entities
 
 function toEntities(tag) {
-	if (typeof tag === 'string') {
-		let equivalentEntities = {
-			'&': '&amp;',
-			'<': '&lt;',
-			'>': '&gt;',
-			'"': '&quot;',
-			"'": '&apos;',
-		}
+    if (typeof tag === 'string') {
+        let equivalentEntities = {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&apos;',
+        }
 
-		return equivalentEntities[tag]
-	}
+        return equivalentEntities[tag]
+    }
 
-	return undefined
+    return undefined
 }
 
 function convertHTML(str) {
-	if (typeof str === 'string') {
-		let splitString = str.split('')
-		let expectedTags = ['&', '<', '>', "'", '"']
+    if (typeof str === 'string') {
+        let splitString = str.split('')
+        let expectedTags = ['&', '<', '>', "'", '"']
 
-		let result = splitString.map(function (char) {
-			if (expectedTags.includes(char)) {
-				char = toEntities(char)
-			}
+        let result = splitString.map(function (char) {
+            if (expectedTags.includes(char)) {
+                char = toEntities(char)
+            }
 
-			return char
-		})
+            return char
+        })
 
-		return result.join('')
-	}
+        return result.join('')
+    }
 
-	return undefined
+    return undefined
 }
 
 /* console.log(convertHTML('Dolce & Gabbana'))

@@ -1,43 +1,43 @@
 var Person = function (firstAndLast) {
-	var firstName, lastName
+    var firstName, lastName
 
-	function update(fullName) {
-		var splitName = fullName.split(' ')
-		firstName = splitName[0]
-		lastName = splitName[1]
-	}
+    function update(fullName) {
+        var splitName = fullName.split(' ')
+        firstName = splitName[0]
+        lastName = splitName[1]
+    }
 
-	update(firstAndLast)
+    update(firstAndLast)
 
-	// Get
+    // Get
 
-	this.getFirstName = function () {
-		return firstName
-	}
+    this.getFirstName = function () {
+        return firstName
+    }
 
-	this.getLastName = function () {
-		return lastName
-	}
+    this.getLastName = function () {
+        return lastName
+    }
 
-	this.getFullName = function () {
-		return `${firstName} ${lastName}`
-	}
+    this.getFullName = function () {
+        return `${firstName} ${lastName}`
+    }
 
-	// Set
+    // Set
 
-	this.setFirstName = function (first) {
-		firstName = first
-		update(`${firstName} ${lastName}`)
-	}
+    this.setFirstName = function (first) {
+        firstName = first
+        update(`${firstName} ${lastName}`)
+    }
 
-	this.setlastName = function (last) {
-		lastName = last
-		update(`${firstName} ${lastName}`)
-	}
+    this.setlastName = function (last) {
+        lastName = last
+        update(`${firstName} ${lastName}`)
+    }
 
-	this.setFullName = function (name) {
-		update(name)
-	}
+    this.setFullName = function (name) {
+        update(name)
+    }
 }
 
 var bob = new Person('Bob Ross')
