@@ -32,15 +32,15 @@ function bracketCheck(str) {
 }
 
 function telephoneCheck(str) {
-    if(typeof str ==="string"){
-    let removeStr = str.replace(/[(|)|-]/gi, '').replace(/\s+/, '')
-    if (hasLength(str) && !hasSpecialChar(removeStr) && bracketCheck(str)) {
-        return true
+    if (typeof str === 'string') {
+        let removeStr = str.replace(/[(|)|-]/gi, '').replace(/\s+/, '')
+        if (hasLength(str) && !hasSpecialChar(removeStr) && bracketCheck(str)) {
+            return true
+        }
+        return false
     }
-    return false
-} 
-    return undefined;
+    return undefined
 }
 
-console.log(telephoneCheck('1 555-555-5555'));
-module.exports = telephoneCheck;
+console.log(telephoneCheck('1 555-555-5555'))
+module.exports = telephoneCheck
