@@ -32,4 +32,10 @@ var newestBookList = remove(
     'On The Electrodynamics of Moving Bodies'
 )
 
-console.log(bookList)
+// console.log(bookList)
+
+module.exports = {
+    bookList: bookList,
+    add: add,
+    remove: remove,
+}
