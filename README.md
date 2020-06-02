@@ -1,26 +1,21 @@
-# Javascript: Algorithms & Data Structures
+# Javascript: Data Structures
 
 <div align="center">
 
-![Test Suites](https://github.com/code-plus-coffee/data-structures-in-javascript/workflows/Test%20Suites/badge.svg)
+![Test Cases](https://github.com/code-plus-coffee/data-structures-in-javascript/workflows/Test%20Cases/badge.svg)
+[![freeCodeCamp](https://img.shields.io/badge/Challenges-freeCodeCamp-006400?logo=freecodecamp&style=flat)](https://freecodecamp.org/learn)
+[![Prettier](https://img.shields.io/badge/Code%20Style-Prettier-orange?logo=prettier&style=flat)](https://prettier.io)
 
 </div>
 
-## 🚀 Description
+## Description
 
-This repository contains the solutions for challenges from the freeCodeCamp's Javascript Algorithms & Data Structures certification course.
+This repository contains the solutions for challenges from the [freeCodeCamp's Javascript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) certification course.
 
-**Please note that solutions for all challenges are not available yet & will be gradually added.**
+**Solutions for all the challenges are not yet available & will be added gradually.**
 
-Challenges covered
+## Sections
 
+-   Functional Programming - 🚧
 -   Intermediate Algorithm Scripting - ✔️
 -   Projects - ✔️
-
----
-
-<p align="center">
-    <a href="https://www.freecodecamp.org/learn" rel="noopener">
-        <img alt="freeCodeCamp Logo" src="https://raw.githubusercontent.com/freeCodeCamp/assets/master/assets/logos/fcc_puckRoundedCorners600.png" width="50" />
-    </a>
-</p>
