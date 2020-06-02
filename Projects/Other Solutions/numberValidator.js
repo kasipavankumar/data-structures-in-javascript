@@ -47,5 +47,6 @@ function telephoneCheck(str) {
     return undefined
 }
 
-console.log(telephoneCheck('1 555-555-5555'))
+// console.log(telephoneCheck('1 555-555-5555'))
+
 module.exports = telephoneCheck
