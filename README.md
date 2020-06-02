@@ -1,7 +1,9 @@
 # Javascript: Algorithms & Data Structures
 
 <div align="center">
-    <img alt="CI Status" src="https://github.com/code-plus-coffee/javascript-algorithms-data-structures/workflows/Test%20Suites/badge.svg" />
+
+![Test Suites](https://github.com/code-plus-coffee/data-structures-in-javascript/workflows/Test%20Suites/badge.svg)
+
 </div>
 
 ## 🚀 Description
@@ -12,8 +14,8 @@ This repository contains the solutions for challenges from the freeCodeCamp's Ja
 
 Challenges covered
 
-- Intermediate Algorithm Scripting - ✔️
-- Projects - ✔️
+-   Intermediate Algorithm Scripting - ✔️
+-   Projects - ✔️
 
 ---
 
